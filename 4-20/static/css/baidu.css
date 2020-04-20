@@ -58,9 +58,10 @@ header a:hover{
     transform: translate(-50%,-50%);
 }
 
-.search-container img{
-    width: 270px;
-    height: 129px;
+.tu{
+    width: 450px;
+    height: 189px;
+    margin-bottom: 20px;
 }
 
 .center{
@@ -92,9 +93,13 @@ header a:hover{
     font-size:16x;
 }
 
-.search-input>img{
-    height: 400px;
+.tu1{
+    float: right;
+    margin-right: 108px;
+    
 }
+
+
 
 /* 尾部 */
 .footer{
