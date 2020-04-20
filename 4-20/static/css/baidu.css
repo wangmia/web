@@ -1,0 +1,135 @@
+/* 初始化 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 头部左边列表 */
+.header-left{
+    float: left;
+    margin-top: 25px;
+}
+
+.header-li{
+    float: left;
+    padding-left: 32px;
+    list-style: none;
+    font: 12px arial;
+}
+
+/* 头部右边列表 */
+.header-right{
+    float: right;
+    margin-top: 25px;
+    margin-right: 32px;
+}
+
+a.red{
+    color: red;
+}
+
+header a{
+    text-decoration: none;
+    color: #222;
+}
+
+header a:hover{
+    color: #3388ff;
+}
+
+/* 清除浮动 */
+.clear{
+    clear: both;
+}
+
+/* 主体内容 */
+.search{
+    position: relative;
+    width: 100%;
+    height:calc(100wh-100px);
+    text-align: center;
+}
+
+/* 居中 */
+.search-container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.search-container img{
+    width: 270px;
+    height: 129px;
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.search-input{
+    height: 30px;
+    width: 560px;
+    border-radius: 6px 0px 0px 6px;
+    box-shadow: none;
+    border: 2px solid #4E71F2;
+    /* 去掉右边 */
+    border-right: none;
+    float: left;
+    outLine:none;
+    padding: 5px 0px 5px 10px ;
+
+}
+
+.search-button{
+    height: 44px;
+    width: 108px;
+    border-radius: 0px 6px 6px 0px;
+    border: 2px solid #4E71F2;
+    background-color: #4E71F2;
+    color: white;
+    font-size:16x;
+}
+
+.search-input>img{
+    height: 400px;
+}
+
+/* 尾部 */
+.footer{
+    position: fixed;
+    background-color: #FAFAFA;
+    height: 40px;
+    left: 0;
+    bottom:0;
+    right: 0;
+    
+}
+
+/* 尾部左边 */
+.footer-left{
+    margin: 10px 0px;
+    float: left;
+}
+
+/* 尾部右边 */
+.footer-right{
+    margin-top: 10px;
+    margin-right: 32px;
+    float: right;
+}
+
+.footer-left a{
+    text-decoration: none;
+    color: #999;
+}
+
+.footer-right a{
+    text-decoration: none;
+    color: #BBB;
+}
+
+.footer a:hover{
+    color: #222;
+}
