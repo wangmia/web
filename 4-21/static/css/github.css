@@ -1,0 +1,356 @@
+/* 初始化 */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    min-width: 1035px;
+    background-color: #f6f8fa;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+html,body{
+    height: 100%;
+    /* width: 100%;
+    min-width: 1179px;
+    min-height: 1080px; */
+}
+
+/* 清浮动 */
+.clear{
+    clear: both;
+}
+/* 头部 */
+header{
+    position: relative;
+    width: 100%;
+    height: 32px;
+    background-color: #24292E;
+    padding: 16px 0;
+    font-family: -apple-system,system-ui,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 14px;
+}
+
+header ul img{
+    width: 30px;
+    margin-top: 3px;
+}
+
+img{
+    width: 20px;
+}
+
+.logo{
+    margin: 0px 16px 0px 16px; 
+    float: left;
+    width: 32px;
+}
+
+.bianji{
+    margin-left: -25px;
+    margin-top: 4px;
+
+}
+
+.header-input{
+    width: 274px;
+    height: 27px;
+    float: left;
+    background: rgba(255,255,255,0.13);
+    border: 0;
+    border-radius: 2px;
+    box-shadow: none;
+    margin-top: 2px;
+    /* border: 2px solid  rgba(255,255,255,0.13); */
+}
+
+/* 头部文字列表 */
+.header-mid{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    margin-left: 345px;
+}
+.header-mid li{
+    list-style: none;
+    /* padding-left: 16px;  */
+    margin-left: 16px;
+    float: left;
+    font-weight: 600;
+}
+
+header a{
+    color:#FFF;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: darkgray;
+}
+
+/* 头部图片列表 */
+.header-right{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 5px;
+}
+
+.header-right li{
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+
+
+/* 主体分栏布局 */
+.left{
+    /* position: fixed; */
+    background-color: white;
+    width: 400px;
+    height: 900px;
+    float: left;
+}
+.mid{
+    background-color:#f6f8fa;
+    width: 100%;
+    margin-left: 400px;
+}
+.right{
+    background-color: #f6f8fa;
+    width: 430px;
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+}
+
+.kuai{
+    position: relative;
+    margin: 40px 20px 0px 20px;
+    right:0;
+}
+
+.left input{
+    border-radius: 6px;
+    border: 2 solid rgb(103, 98, 107);
+    margin-top: 15px ;
+    padding: 10px 10px;
+    width: 238px;
+}
+
+.ul{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.ul a{
+    text-decoration: none;
+    color: #0366D6;  
+}
+
+.ul a:hover{
+    text-decoration: underline;
+}
+
+/* 水平线 */
+.xian{
+    height: 1px;
+    background-color:rgb(171, 166, 175);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kuai p{
+    font-size: 16px;
+    padding: 15px 0px;
+
+}
+
+/* 左侧button */
+.left-button-right{
+    background-color: #28A745;
+    padding: 7px 20px;
+    color: white;
+    border: 2 solid  rgb(30, 131, 53);
+    float: right;
+    border-radius: 4px;
+}
+
+/* 右侧button */
+.left-button-left{
+    padding: 7px 20px;
+    color: #0366D6;
+    border: 2 solid rgb(171, 166, 175);
+    float: left;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+/* 主体部分右边 */
+.right-kuai{
+    margin-right: 20px;
+    font-size:12px;
+}
+
+/* 右边第一个模块 */
+.right-div-one{
+    margin: 10px 0px 20px 0px;
+}
+
+.right a{
+    margin: 15px 0px 5px 0px; 
+    color:#24292E;
+    display: block;
+    text-decoration: none;
+}
+
+.right a:hover{
+    color: #0366D6;
+}
+
+.right samp{
+    top:6px;
+}
+
+.hang{
+    margin-bottom: 15px;
+}
+
+
+.right-div-one img{
+    width: 380px;
+    margin-top: 20px;
+}
+
+/* 主体部分中间 */
+.mid-kuai{
+    position: absolute;
+    width: 559px;
+    padding: 15px;
+    height: 100%;
+}
+
+/* 中间第一个模块 */
+.mid-div-top{
+    position: absolute;
+    /* float: left; */
+    width: 519px;
+    height: 378px;
+    padding: 20px;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 60%, #fff), linear-gradient(70deg, #dbedff 32%, #ebfff0); 
+}
+
+/* 中间第一个模块文字布局 */
+.mid-div-top-one{
+    position: absolute;
+    margin: 72px 30px 52px 30px;
+    width: 440px;
+    height: 274px;
+}
+
+p button{
+    background-color: #28A745;
+    padding: 10px 30px;
+    color: white;
+    border: 2 solid  rgb(30, 131, 53);
+    border-radius: 4px;
+    width: 200px;
+    font-size: 16px;
+}
+
+/* 中间第二个模块 */
+.mid-div-two{
+    width: 100%; 
+    top:440px; 
+    position: absolute; 
+    left: 0px;
+    float: left;
+    padding: 20px 0px; 
+}
+
+.mid-div-two-img{
+    width: 32px;
+    margin-right: 15px;
+    float: left;
+}
+
+.mid-div-two-witer{
+    margin-left: 50px;
+    padding: 16px;
+    margin-top: 8px;
+    background-color:white;
+    height: 50px;
+    /* text-align: center; */
+}
+
+.mid-div-two-button{
+    padding: 3px 10px;
+    margin: -5px 8px 0px 0px;
+    float: right;
+}
+.repo-language-color{
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+/* 灰色字 */
+.gray-witer{
+    color: #586069;
+}
+
+/* 中间第三个模块 */
+.mid-div-three{
+    left: 0px; 
+    position: absolute;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.mid-div-three p{
+    padding-bottom: 8px;
+}
+
+.mid-div-three p a{
+    color: #0366D6;
+    text-decoration: none;
+}
+
+.mid-div-three p a:hover{
+    text-decoration: underline;
+}
+
+/* 中间footer */
+footer{
+    position: absolute;
+    float: left;
+    top:720px;
+    left: 0;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* 中间footer右边 */
+.table{
+    float: right;
+    padding-right: 20px;
+}
+
+.table td{
+    padding: 2px 15px 2px 15px ;
+}
+
+footer a{
+    color: #637A7D;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #0366D6;
+    text-decoration: underline;
+}
